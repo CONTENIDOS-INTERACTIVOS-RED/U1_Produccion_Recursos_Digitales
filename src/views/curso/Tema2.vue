@@ -124,34 +124,34 @@
           .col-lg-8.mb-3.mb-lg-0.order-lg-2
             SlyderF(columnas="col-12 col-lg-6")
               .bg-color-white.h-100.shadow-app
-                img(src='@/assets/curso/tema2/13.svg' alt='AvatarTop' , style="max-width: 350px")
+                img(src='@/assets/curso/tema2/13.svg' alt='AvatarTop' , style="max-width: 350px").mx-auto.mb-3
                 p.text-center.p-4 Visibilidad del estado del sistema.
               .bg-color-white.h-100.shadow-app
-                img(src='@/assets/curso/tema2/14.svg' alt='AvatarTop' , style="max-width: 350px")
+                img(src='@/assets/curso/tema2/14.svg' alt='AvatarTop' , style="max-width: 350px").mx-auto.mb-3
                 p.text-center.p-4 Coincidencia entre el sistema y el mundo real.
               .bg-color-white.h-100.shadow-app
-                img(src='@/assets/curso/tema2/15.svg' alt='AvatarTop' , style="max-width: 350px")
+                img(src='@/assets/curso/tema2/15.svg' alt='AvatarTop' , style="max-width: 350px").mx-auto.mb-3
                 p.text-center.p-4 Control y libertad del usuario.
               .bg-color-white.h-100.shadow-app
-                img(src='@/assets/curso/tema2/16.svg' alt='AvatarTop' , style="max-width: 350px")
+                img(src='@/assets/curso/tema2/16.svg' alt='AvatarTop' , style="max-width: 350px").mx-auto.mb-3
                 p.text-center.p-4 Consistencia y estándares.
               .bg-color-white.h-100.shadow-app
-                img(src='@/assets/curso/tema2/17.svg' alt='AvatarTop' , style="max-width: 350px")
+                img(src='@/assets/curso/tema2/17.svg' alt='AvatarTop' , style="max-width: 350px").mx-auto.mb-3
                 p.text-center.p-4 Prevención de errores.
               .bg-color-white.h-100.shadow-app
-                img(src='@/assets/curso/tema2/18.svg' alt='AvatarTop' , style="max-width: 350px")
+                img(src='@/assets/curso/tema2/18.svg' alt='AvatarTop' , style="max-width: 350px").mx-auto.mb-3
                 p.text-center.p-4 Reconocimiento en lugar de recuerdo.
               .bg-color-white.h-100.shadow-app
-                img(src='@/assets/curso/tema2/19.svg' alt='AvatarTop' , style="max-width: 350px")
+                img(src='@/assets/curso/tema2/19.svg' alt='AvatarTop' , style="max-width: 350px").mx-auto.mb-3
                 p.text-center.p-4 Flexibilidad y eficiencia de uso.
               .bg-color-white.h-100.shadow-app
-                img(src='@/assets/curso/tema2/20.svg' alt='AvatarTop' , style="max-width: 350px")
+                img(src='@/assets/curso/tema2/20.svg' alt='AvatarTop' , style="max-width: 350px").mx-auto.mb-3
                 p.text-center.p-4 Diseño estético y minimalista.
               .bg-color-white.h-100.shadow-app
-                img(src='@/assets/curso/tema2/21.svg' alt='AvatarTop' , style="max-width: 350px")
+                img(src='@/assets/curso/tema2/21.svg' alt='AvatarTop' , style="max-width: 350px").mx-auto.mb-3
                 p.text-center.p-4 Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de los errores.
               .bg-color-white.h-100.shadow-app
-                img(src='@/assets/curso/tema2/22.svg' alt='AvatarTop' , style="max-width: 350px")
+                img(src='@/assets/curso/tema2/22.svg' alt='AvatarTop' , style="max-width: 350px").mx-auto.mb-3
                 p.text-center.p-4 Ayuda y documentación.
     
           .col-lg-4.order-lg-1
