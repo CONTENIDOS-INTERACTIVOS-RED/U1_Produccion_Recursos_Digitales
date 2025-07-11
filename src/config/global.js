@@ -161,66 +161,6 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
-        numero: '5',
-        titulo:
-          'Estrategias para la integración de recursos digitales en entornos virtuales de aprendizaje (EVA)',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'La integración de RED en EVA',
-            hash: 't_5_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.2',
-            titulo:
-              'Alineación de los RED con el diseño instruccional del curso/unidad',
-            hash: 't_5_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.3',
-            titulo:
-              'Fomento de la interacción y colaboración a través de RED integrados',
-            hash: 't_5_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.4',
-            titulo: 'Consideraciones prácticas para la integración en EVA',
-            hash: 't_5_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.5',
-            titulo: 'Fundamentos de la evaluación del RED',
-            hash: 't_5_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.6',
-            titulo: 'Tipos de evaluación aplicados a RED',
-            hash: 't_5_6',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.7',
-            titulo: 'Indicadores de Impacto de los RED',
-            hash: 't_5_7',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.8',
-            titulo: 'Herramientas y tecnologías para la evaluación de RED',
-            hash: 't_5_8',
-          },
-        ],
-      },
-      {
         nombreRuta: 'tema6',
         icono: 'far fa-file-alt',
         numero: '6',
