@@ -1,39 +1,48 @@
 <template lang="pug">
-  .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'3. Título tema'")
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
-  
-      #t_3_1.titulo-segundo(data-aos="flip-up")
-        h2 #[span 3.1] Subtítulo tema
+.curso-main-container.pb-3
+  BannerInterno(:subTitulo="'6. Mejora y optimización de materiales digitales según retroalimentación y análisis de datos'")
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-      .bg-full-width.border-top.actividad.bg-color-actividad
-        .p-4.p-md-5
-          #Actividad                
-            <Actividad :cuestionario="cuestionario"/>
+    .bg-color-2.mb-5(data-aos="fade-up")
+      .row.justify-content-center.align-items-center
+        .col-lg-auto.order-2
+          figure
+            img(src='@/assets/curso/tema6/1.png', alt='')
+        .col-lg.order-1.mb-3.mb-lg-0
+          .p-4
+            p.mb-0(data-aos="fade-up") La creación de un Recurso Educativo Digital (RED) no culmina con su primera versión o implementación. De hecho, este es solo el comienzo de un ciclo vital en el que la mejora continua y la optimización son fundamentales para asegurar su relevancia, efectividad y alineación con las necesidades cambiantes de los estudiantes y los contextos educativos. Este tema le guiará a través de los procesos para transformar la retroalimentación y los datos de uso en acciones concretas de mejora.
 
-      .bg-full-width.border-top.color-primario
-        .p-4.p-md-5
-          h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
-          .row.material-complementario
-            .col-12.col-md-6.col-lg-7
-              p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-  
-              p.d-flex.my-4
-                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-  
-              p.d-flex.my-4
-                img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-                span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
-  
-              p.d-flex.my-4
-                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
-  
-            .col-12.col-md-6.col-lg-3.offset-lg-1
-              figure
-                img(src='@/assets/componentes/material-complementario.svg', alt='')
-  
+    #t_3_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 3.1] Subtítulo tema
+
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
+
 </template>
 
 <script>
